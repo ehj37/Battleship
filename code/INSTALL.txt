@@ -1,0 +1,20 @@
+CS 3110 Final Project: BattleShip Installation Instructions
+
+* No Required OPAM packages
+* Install Ocaml Graphics
+
+* cd to directory of the project
+* run make build to build the project, preparing it to be run
+* run make play to start Battleship
+
+	Commands:
+	quit -> Exit the game
+	fire x y ->, where x y are valid int on the game board -> fire at the 
+	coordinate hoping its a ship position
+	checkships -> check how many ships the current player have
+	place x1 y1 x2 y2 -> place the ship at certain coordinates before game starts
+
+* Inavlid Ship placements:
+	- Placing a ship on top of another current ship for the current player
+	- Placing a ship outside the gameboard
+	

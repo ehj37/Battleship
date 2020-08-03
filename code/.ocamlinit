@@ -1,0 +1,7 @@
+#directory "_build";;
+#require "str";;
+#require "graphics";;
+#require "ANSITerminal";;
+#load_rec "gui.cmo";;
+#load_rec "state.cmo";;
+#load_rec "main.cmo";;
